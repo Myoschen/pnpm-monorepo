@@ -1,7 +1,8 @@
 {
   "name": "pnpm-monorepo",
   "version": "1.0.0",
-  "description": "",
+  "description": "monospace with pnpm workspace",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "dev:api": "pnpm -F @packages/api dev",
@@ -17,5 +18,8 @@
   "type": "module",
   "keywords": [],
   "author": "Myoschen",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
 }
