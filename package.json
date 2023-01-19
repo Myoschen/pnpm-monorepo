@@ -5,7 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev:api": "pnpm -F @packages/api dev",
-    "dev:web": "pnpm -F @packages/web dev"
+    "dev:web": "pnpm -F @packages/web dev",
+    "dev": "pnpm --stream -r run dev",
+    "build:api": "pnpm -F @packages/api build",
+    "build:web": "pnpm -F @packages/web build",
+    "build": "pnpm --stream -r run build",
+    "start:api": "pnpm -F @packages/api start",
+    "start:web": "pnpm -F @packages/web start",
+    "start": "pnpm --stream -r run start"
   },
   "type": "module",
   "keywords": [],
