@@ -1,5 +1,5 @@
 {
-  "name": "@packages/api",
+  "name": "@app/server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
     "type-check": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "Myoschen",
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
