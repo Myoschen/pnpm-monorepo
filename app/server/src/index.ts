@@ -22,6 +22,4 @@ app.get('/workspaces', (_, response) => {
 
 createTerminus(server);
 
-server.listen(port, () =>
-  console.log(`Listening on http://localhost:${port}...`)
-);
+server.listen(port, () => console.log(`Listening on http://localhost:${port}...`));
