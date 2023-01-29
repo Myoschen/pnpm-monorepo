@@ -7,7 +7,7 @@ function App() {
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch('/api/workspaces');
+      const response = await fetch('http://localhost:5000/workspaces');
       const { data } = await response.json();
       setData(data);
     };

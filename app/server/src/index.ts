@@ -9,7 +9,7 @@ const app = express();
 const port = 5000;
 const server = http.createServer(app);
 
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: 'http://127.0.0.1:3000' }));
 
 app.get('/workspaces', (_, response) => {
   const workspaces: Workspace[] = [
